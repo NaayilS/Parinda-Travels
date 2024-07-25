@@ -7,4 +7,4 @@ CSS Integration: Demonstrates the use of internal, inline, and external CSS for 
 
 Technologies Used:
 HTML5: For structuring the content of the webpage.
-CSS3: For styling and layout, including Flexbox and animations.
+CSS: For styling and layout, including Flexbox and animations.
