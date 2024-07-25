@@ -1,0 +1,177 @@
+/* External CSS File: styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    color: #5B058A;
+}
+
+.headernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #62040A;
+    color: #F5F5F5;
+}
+
+#pageIcon img {
+    height: 60px;
+}
+
+#pageLinks a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+#pageLinks a:hover {
+    text-decoration: underline;
+    text-decoration-color: #F9626C;
+    color: #8207C5;
+}
+
+#socials {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#socials button {
+    background: none;
+    border: none;
+    margin: 5px;
+}
+
+#socials img {
+    height: 30px;
+}
+
+#background_image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #35034F;
+    animation: slideIn 1.5s ease-out;
+}
+
+p {
+    color: #5B058A;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #1b263b;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form select {
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #1b263b;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #35034F;
+    color: #F5F5F5;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #62040A;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #F5F5F5;
+}
+
+table, th, td {
+    border: 1px solid #1b263b;
+    padding: 8px;
+}
+
+th {
+    background-color: #8207C5;
+    color: #F5F5F5;
+    text-align: left;
+}
+
+/* CSS Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+#newsletter {
+    border-color: #BD4EF9;
+}
+
+#newsletter::placeholder {
+    color: #BD4EF9;
+}
+
+#feedback {
+    border-color: #F9626C;
+}
+
+#feedback::placeholder {
+    color: #F9626C;
+}
+
+#contactForm {
+   border-color: #62040A; 
+}
+
+#contactForm::placeholder {
+    color: #b9141f;
+}
+
+#background_image img {
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    animation: slideIn 1.5s ease-out;
+}
