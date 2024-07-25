@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+
+        <div id="background_image">
+            <img src="https://images.fineartamerica.com/images-medium-large-5/madison-skyline-todd-klassy.jpg"/>
+        </div>
+
+        <nav>
+            <div class="headernav">
+                <div id="pageIcon">
+                    <img src= "https://icons.iconarchive.com/icons/iconka/business-outline/512/plane-icon.png"/>
+                </div>
+                <div id= "pageLinks">
+                    <a href="./index.html">Home</a>
+                    <a href="./about_us.html">About Us</a>
+                    <a href="./contact_us.html">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <div id="socials">
+            <button class="twitter"><img src= "https://www.sendible.com/hubfs/blog-import/2024/02-24-Feb/social-media-icons-x-logo-black.png" alt="Twitter"></button>
+            <button class="facebook"><img src= "https://f.hubspotusercontent30.net/hubfs/2235233/blog-import/2020/20-08-Aug/sm-icons-facebook-logo.png" alt="Facebook"></button>
+            <button class="instagram"><img src= "https://2235233.fs1.hubspotusercontent-na1.net/hubfs/2235233/blog-import/2022/07-22-Jul/every-social-media-logo-and-icon-in-one-handy-place-instagram.png" alt="Instagram"></button>
+        </div>
+
+        <h1>Contact Us</h1>
+        <p>Get in touch</p>
+
+        <form id="contactForm">
+            <div>
+              <label for="name">Name</label><br>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+              <label for="email">Email</label><br>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+              <label for="message">Message</label><br>
+              <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+            <div>
+              <label for="inquiry">Inquiry Type</label><br>
+              <select id="inquiry" name="inquiry">
+                  <option value="general">General Inquiry</option>
+                  <option value="support">Support</option>
+                  <option value="feedback">Feedback</option>
+              </select>
+            </div>
+            <button type="submit" style="background-color: #5B058A;">Submit</button>
+        </form>
+
+     
+    </body>
+</html>
